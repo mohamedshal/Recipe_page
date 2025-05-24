@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+:root {
+    --body-color: rgb(243, 229, 216);
+    --container-color: rgb(248 250 252);
+}
+@layer utilities {
+    .bg-body-color {
+        background-color: var(--body-color);
+    }
+    .bg-container-color{
+        background-color: var(--container-color);
+    } 
+
+    .text-body-color {
+        color: var(--body-color);
+    }
+}
